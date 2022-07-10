@@ -1,0 +1,8 @@
+@use "global" as *;
+.logo {
+  width: rem(70);
+  transition: $slow;
+  @include mq(md) {
+    width: rem(94);
+  }
+}

@@ -1,0 +1,32 @@
+@use "global" as *;
+.content-title {
+  display: none;
+  text-align: center;
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(20);
+  line-height: 1.45;
+  letter-spacing: rem(2);
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.content-title::before {
+  content: "Content";
+  display: block;
+  font-family: $second-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(50);
+  line-height: 1.44;
+  letter-spacing: rem(2);
+  color: rgba(249, 248, 113, 0.2);
+  position: absolute;
+  top: rem(-44);
+  left: 50%;
+  transform: translateX(-50%);
+  @include mq(md) {
+  }
+}

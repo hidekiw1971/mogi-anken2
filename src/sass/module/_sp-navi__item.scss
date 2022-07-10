@@ -1,0 +1,8 @@
+@use "global" as *;
+.sp-navi__item a {
+  display: inherit;
+  width: inherit;
+  padding: rem(16) 0;
+  @include mq(md) {
+  }
+}

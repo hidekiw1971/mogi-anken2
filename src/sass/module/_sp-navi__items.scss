@@ -1,0 +1,9 @@
+@use "global" as *;
+.sp-navi__items {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: rem(209);
+  padding: rem(209) 0;
+  overflow: scroll;
+}
