@@ -1,7 +1,7 @@
 @use "global" as *;
 .header__drawer {
   width: rem(24);
-  height: rem(12.95);
+  height: inherit;
   padding: rem(0);
   transition: $slow;
   @include mq(md) {

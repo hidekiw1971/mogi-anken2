@@ -1,0 +1,41 @@
+@use "global" as *;
+.content {
+  @include mq(md) {
+  }
+}
+
+.content-img__wrapper {
+  display: block;
+  padding-top: 89.36%;
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.content-img__wrapper img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translatey(-50%) scale(1);
+  @include mq(md) {
+  }
+}
+
+.content-text {
+  display: inline-block;
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(20);
+  line-height: 1.45;
+  letter-spacing: rem(2);
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  @include mq(md) {
+  }
+}
