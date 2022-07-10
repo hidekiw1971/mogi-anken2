@@ -1,0 +1,10 @@
+@use "global" as *;
+.card__body {
+  padding-top: rem(4);
+  padding-right: rem(23);
+  padding-bottom: rem(0);
+  padding-left: rem(23);
+  margin-bottom: rem(4);
+  @include mq(md) {
+  }
+}

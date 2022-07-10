@@ -1,0 +1,14 @@
+@use "global" as *;
+.card__title {
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal500;
+  font-size: rem(18);
+  line-height: 1.944;
+  letter-spacing: rem(1);
+  color: #333333;
+  margin-bottom: rem(4);
+  transition: $slow;
+  @include mq(md) {
+  }
+}

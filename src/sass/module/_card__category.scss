@@ -1,0 +1,14 @@
+@use "global" as *;
+.card__category {
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(14);
+  line-height: 1.857;
+  letter-spacing: rem(1);
+  color: #000000;
+  background: #ffea2e;
+  transition: $slow;
+  @include mq(md) {
+  }
+}

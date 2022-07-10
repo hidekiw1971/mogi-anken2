@@ -1,0 +1,16 @@
+@use "global" as *;
+.card__img-wrapper {
+  padding-top: 66.567%;
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.card__img-wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  @include mq(md) {
+  }
+}
