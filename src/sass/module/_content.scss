@@ -1,41 +1,29 @@
 @use "global" as *;
-.content {
+.content__item {
+  background: #f00;
   @include mq(md) {
   }
 }
 
-.content-img__wrapper {
-  display: block;
-  padding-top: 89.36%;
+.content__item-col2 > .content__img-wrapper {
+  width: calc(100% / 2);
+  padding-top: calc(89.36% / 2);
   position: relative;
   @include mq(md) {
   }
 }
 
-.content-img__wrapper img {
+.content__img-wrapper img,
+.content__img-wrapper h3 {
   position: absolute;
-  width: 100%;
   top: 50%;
-  left: 0;
-  right: 0;
-  transform: translatey(-50%) scale(1);
+  left: 50%;
+  transform: translate(-50%, -50%);
   @include mq(md) {
   }
 }
 
-.content-text {
-  display: inline-block;
-  font-family: $base-font-family;
-  font-style: normal;
-  font-weight: $normal;
-  font-size: rem(20);
-  line-height: 1.45;
-  letter-spacing: rem(2);
-  color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  @include mq(md) {
-  }
+.content__item-col2 {
+  display: flex;
+  flex-wrap: wrap;
 }
