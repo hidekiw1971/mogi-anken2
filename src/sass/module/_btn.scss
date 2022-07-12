@@ -1,7 +1,6 @@
 @use "global" as *;
 .btn {
-  display: none;
-  // display: block;
+  display: block;
   max-width: rem(335);
   width: 100%;
   background-color: #333;
@@ -14,6 +13,57 @@
   line-height: 1.45;
   letter-spacing: rem(2);
   margin: 0 auto;
+  border: 1px solid #fff;
+  @include mq(md) {
+  }
+}
+
+.btn__layout {
+  overflow: hidden;
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.btn__layout span {
+  position: relative;
+  color: #fff;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  @include mq(md) {
+  }
+}
+
+.btn__layout span:hover {
+  position: relative;
+  color: #333;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  @include mq(md) {
+  }
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(-100%);
+  transition: $slow;
+  @include mq(md) {
+  }
+}
+
+.btn:hover::after {
+  transform: translateX(0%);
+  transition: $slow;
   @include mq(md) {
   }
 }
