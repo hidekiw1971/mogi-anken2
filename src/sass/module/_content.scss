@@ -1,4 +1,8 @@
 @use "global" as *;
+.content__item.content__item-col2 {
+  display: none;
+}
+
 .content__item {
   background: #f00;
   @include mq(md) {
