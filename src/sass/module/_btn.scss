@@ -1,10 +1,6 @@
 @use "global" as *;
 .btn {
-  display: block;
-  max-width: rem(335);
-  width: 100%;
   background-color: #333;
-  padding: rem(10) rem(0);
   text-align: center;
   font-family: $base-font-family;
   font-style: normal;
@@ -13,12 +9,15 @@
   line-height: 1.45;
   letter-spacing: rem(2);
   margin: 0 auto;
-  border: 1px solid #fff;
+  // border: 1px solid #fff;
   @include mq(md) {
   }
 }
 
 .btn__layout {
+  display: block;
+  max-width: rem(335);
+  width: 100%;
   overflow: hidden;
   position: relative;
   @include mq(md) {
@@ -26,11 +25,14 @@
 }
 
 .btn__layout span {
+  display: block;
   position: relative;
   color: #fff;
   z-index: 5;
   width: 100%;
   height: 100%;
+  border: 1px solid #fff;
+  padding: rem(10) 0;
   @include mq(md) {
   }
 }
@@ -38,7 +40,7 @@
 .btn__layout span:hover {
   position: relative;
   color: #333;
-  z-index: 5;
+  z-index: 99;
   width: 100%;
   height: 100%;
   @include mq(md) {
