@@ -1,6 +1,6 @@
 @use "global" as *;
-.content-title {
-  display: none;
+.works__title {
+  display: block;
   text-align: center;
   font-family: $base-font-family;
   font-style: normal;
@@ -13,8 +13,8 @@
   }
 }
 
-.content-title::before {
-  content: "Content";
+.works__title::before {
+  content: "Works";
   display: block;
   font-family: $second-font-family;
   font-style: normal;
@@ -27,6 +27,12 @@
   top: rem(-44);
   left: 50%;
   transform: translateX(-50%);
+  @include mq(md) {
+  }
+}
+
+.works__title-layout {
+  margin-bottom: rem(48);
   @include mq(md) {
   }
 }
