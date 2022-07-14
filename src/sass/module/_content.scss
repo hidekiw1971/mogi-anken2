@@ -1,6 +1,40 @@
 @use "global" as *;
-.content__item.content__item-col2 {
-  display: none;
+.content__title {
+  display: block;
+  text-align: center;
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(20);
+  line-height: 1.45;
+  letter-spacing: rem(2);
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.content__title::before {
+  content: "Content";
+  display: block;
+  font-family: $second-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(50);
+  line-height: 1.44;
+  letter-spacing: rem(2);
+  color: rgba(249, 248, 113, 0.2);
+  position: absolute;
+  top: rem(-44);
+  left: 50%;
+  transform: translateX(-50%);
+  @include mq(md) {
+  }
+}
+
+.content__title-layout {
+  margin-bottom: rem(48);
+  @include mq(md) {
+  }
 }
 
 .content__item {
@@ -30,4 +64,10 @@
 .content__item-col2 {
   display: flex;
   flex-wrap: wrap;
+}
+
+.content__layout {
+  margin-bottom: rem(71);
+  @include mq(md) {
+  }
 }
