@@ -748,6 +748,20 @@ body {
   overflow: scroll;
 }
 
+.swiper-slide {
+  width: 375px;
+  width: 23.4375rem;
+  padding-top: 69.6%;
+  position: relative;
+}
+.swiper-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .works__title {
   display: block;
   text-align: center;

@@ -53,7 +53,7 @@ jQuery(function ($) {
     return false;
   });
 
-  // swiper.js
+  // mv swiper.js;
   let swipeOption = {
     loop: true,
     effect: "fade",
@@ -62,10 +62,20 @@ jQuery(function ($) {
       disableOnInteraction: false,
     },
     speed: 2000,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
   };
   new Swiper(".swiper-container", swipeOption);
+
+  // works swiper
+  var myswiper1 = new Swiper(".myswiper1", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 });
