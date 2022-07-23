@@ -63,10 +63,10 @@ jQuery(function ($) {
     },
     speed: 2000,
   };
-  new Swiper(".swiper-container", swipeOption);
+  new Swiper(".js-swiper-container1", swipeOption);
 
   // works swiper
-  var myswiper1 = new Swiper(".myswiper1", {
+  var jsSwiperContainer2 = new Swiper(".js-swiper-container2", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
@@ -74,7 +74,7 @@ jQuery(function ($) {
       disableOnInteraction: false,
     },
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiper-pagination2",
       clickable: true,
     },
   });

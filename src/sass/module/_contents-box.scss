@@ -1,0 +1,32 @@
+@use "global" as *;
+.contents-box__title {
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(20);
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  color: #ffffff;
+  text-align: center;
+  @include mq(md) {
+  }
+}
+
+.contents-box__text {
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: remm(16);
+  letter-spacing: rem(2);
+  line-height: 1.4375;
+  color: #ffffff;
+  @include mq(md) {
+  }
+}
+
+.contents-box__layout {
+  padding: 0 rem(20);
+  padding-bottom: rem(16);
+  @include mq(md) {
+  }
+}

@@ -1,5 +1,5 @@
 @use "global" as *;
-.works__title {
+.overview__title {
   display: block;
   text-align: center;
   font-family: $base-font-family;
@@ -13,8 +13,8 @@
   }
 }
 
-.works__title::before {
-  content: "Works";
+.overview__title::before {
+  content: "Overview";
   display: block;
   font-family: $second-font-family;
   font-style: normal;
@@ -31,44 +31,8 @@
   }
 }
 
-.works__title-layout {
+.overview__title-layout {
   margin-bottom: rem(48);
-  @include mq(md) {
-  }
-}
-
-.slide-img2 {
-  padding-top: 69.6%;
-  position: relative;
-  @include mq(md) {
-  }
-}
-
-.slide-img2 img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  @include mq(md) {
-  }
-}
-
-.works__wrap {
-  @include mq(md) {
-  }
-}
-
-.swiper-pagination2 {
-  text-align: center;
-}
-
-.swiper-pagination-bullet {
-  background: #f9f871;
-  margin: 0 rem(5);
-}
-
-.works__layout {
-  margin-bottom: rem(72);
   @include mq(md) {
   }
 }

@@ -72,7 +72,8 @@
   transform: translatex(-100%);
   background: rgba(17, 17, 17, 1);
   width: 100%;
-  height: 100vh;
+  height: 500vh;
+  // height: 100%;
   z-index: 10;
   transition: $slow;
   @include mq(md) {
