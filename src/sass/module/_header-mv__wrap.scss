@@ -7,6 +7,7 @@
 
 .wrap {
 }
+
 @keyframes zoomUp {
   0% {
     transform: scale(1);
@@ -16,12 +17,12 @@
   }
 }
 
-.swiper-slide-active .slide-img,
-.swiper-slide-duplicate-active .slide-img,
-.swiper-slide-prev .slide-img {
+.swiper-slide-active .slide-img1,
+.swiper-slide-duplicate-active .slide-img1,
+.swiper-slide-prev .slide-img1 {
   animation: zoomUp 10s linear 0s 1 normal both;
 }
-.slide-img img {
+.slide-img1 img {
   display: block;
   height: 100vh;
   object-fit: cover;

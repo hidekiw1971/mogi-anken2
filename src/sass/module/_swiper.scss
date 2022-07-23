@@ -1,21 +1,21 @@
 @use "global" as *;
 
-.myswiper1 {
-  @include mq(md) {
-  }
-}
+// .myswiper1 {
+//   @include mq(md) {
+//   }
+// }
 
-.swiper-slide {
-  width: rem(375);
-  padding-top: 69.6%;
-  position: relative;
-  @include mq(md) {
-  }
-}
+// .swiper-slide {
+//   width: rem(375);
+//   padding-top: 69.6%;
+//   position: relative;
+//   @include mq(md) {
+//   }
+// }
 
-.swiper-slide img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// .swiper-slide img {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
