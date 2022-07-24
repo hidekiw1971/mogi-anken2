@@ -1,7 +1,6 @@
 @use "global" as *;
 .card {
-  display: none;
-  // display: block;
+  display: block;
   background-color: #fff;
   @include mq(md) {
   }

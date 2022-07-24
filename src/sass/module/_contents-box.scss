@@ -30,3 +30,9 @@
   @include mq(md) {
   }
 }
+
+.contents-box {
+  background: #333;
+  @include mq(md) {
+  }
+}

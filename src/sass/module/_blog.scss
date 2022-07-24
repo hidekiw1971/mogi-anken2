@@ -1,5 +1,5 @@
 @use "global" as *;
-.overview__title {
+.blog__title {
   display: block;
   text-align: center;
   font-family: $base-font-family;
@@ -13,8 +13,8 @@
   }
 }
 
-.overview__title::before {
-  content: "Overview";
+.blog__title::before {
+  content: "Blog";
   display: block;
   font-family: $second-font-family;
   font-style: normal;
@@ -31,13 +31,7 @@
   }
 }
 
-.overview__title-layout {
-  margin-bottom: rem(48);
-  @include mq(md) {
-  }
-}
-
-.overview__layout {
+.blog__title-layout {
   margin-bottom: rem(48);
   @include mq(md) {
   }
