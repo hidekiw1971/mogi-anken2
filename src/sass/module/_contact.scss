@@ -1,10 +1,19 @@
 @use "global" as *;
-.blog {
+.contact {
+  background: #3d3d3d;
   @include mq(md) {
   }
 }
 
-.blog__title {
+.contact__layout {
+  padding: 0 rem(20);
+  padding-top: rem(67);
+  padding-bottom: rem(64);
+  @include mq(md) {
+  }
+}
+
+.contact__title {
   display: block;
   text-align: center;
   font-family: $base-font-family;
@@ -18,8 +27,8 @@
   }
 }
 
-.blog__title::before {
-  content: "Blog";
+.contact__title::before {
+  content: "Contact";
   display: block;
   font-family: $second-font-family;
   font-style: normal;
@@ -36,27 +45,14 @@
   }
 }
 
-.blog__title-layout {
-  margin-bottom: rem(72);
+.contact__title-layout {
+  margin-bottom: rem(20);
   @include mq(md) {
   }
 }
 
-.blog__layout {
-  padding: 0 rem(20);
-  margin-bottom: rem(120);
-  @include mq(md) {
-  }
-}
-
-.blog__col3 > .card__layout:nth-of-type(3) {
-  margin-bottom: rem(0);
-  @include mq(md) {
-  }
-}
-
-.blog__col3-layout {
-  margin-bottom: rem(24);
+.contact__layout {
+  margin-bottom: rem(48);
   @include mq(md) {
   }
 }

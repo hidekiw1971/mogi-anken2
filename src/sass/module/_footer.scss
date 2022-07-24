@@ -4,6 +4,12 @@
   }
 }
 
+.footer__layout {
+  margin-bottom: rem(48);
+  @include mq(md) {
+  }
+}
+
 .footer__navi {
   display: block;
   @include mq(md) {
