@@ -1,4 +1,9 @@
 @use "global" as *;
+.header {
+  @include mq(md) {
+  }
+}
+
 .header__inner {
   height: inherit;
   display: flex;
@@ -7,5 +12,29 @@
   background: rgba(17, 17, 17, 0.5);
   padding: 0 rem(22);
   @include mq(md) {
+  }
+}
+
+.pc-navi {
+  display: none;
+  @include mq(md) {
+    display: block;
+    height: 100%;
+  }
+}
+
+.pc-navi__items {
+  @include mq(md) {
+    display: flex;
+    height: inherit;
+  }
+}
+
+.pc-navi__item a {
+  @include mq(md) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
 }
