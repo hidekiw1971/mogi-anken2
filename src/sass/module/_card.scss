@@ -5,3 +5,39 @@
   @include mq(md) {
   }
 }
+
+.card__layout {
+  margin-bottom: rem(24);
+  @include mq(md) {
+  }
+}
+
+.card__badge {
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.card__badge::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  transform: translate(-30%, -30%);
+  width: 0;
+  height: 0;
+  border-width: rem(30) rem(30) rem(30) rem(30);
+  border-style: solid;
+  border-color: #ffba6a #ffba6a #ffba6a #ffba6a;
+  border-radius: 50%;
+  @include mq(md) {
+  }
+}
+
+.card__badge-text {
+  position: absolute;
+  z-index: 15;
+  transform: translate(-13%, -13%);
+  color: #333;
+  @include mq(md) {
+  }
+}
