@@ -59,6 +59,7 @@
   }
 }
 
+// .pc-navi__item a {
 .pc-navi__item a {
   @include mq(md) {
     display: flex;
@@ -72,6 +73,11 @@
   @include mq(md) {
     color: #333;
     background: #fff;
+  }
+}
+
+.pc-navi__item-query a {
+  @include mq(md) {
     padding: 0 rem(32);
   }
 }
