@@ -249,6 +249,7 @@ body {
 @media screen and (min-width: 768px) {
   .article__category-layout {
     margin-left: 3rem;
+    width: 100%;
   }
 }
 
@@ -277,6 +278,7 @@ body {
             align-items: center;
     margin: 0;
     margin-left: 3.8125rem;
+    width: 100%;
   }
 }
 
@@ -312,8 +314,10 @@ body {
 @media screen and (min-width: 768px) {
   .article__btn-layout {
     max-width: 8.375rem;
-    margin: 0rem;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 3rem;
+    margin-right: 0rem;
   }
 }
 
