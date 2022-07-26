@@ -5,6 +5,7 @@
   padding: rem(0);
   transition: $slow;
   @include mq(md) {
+    display: none;
   }
 }
 
