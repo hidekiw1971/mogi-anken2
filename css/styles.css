@@ -193,6 +193,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 7.4375rem;
+    margin-left: 7.4375rem;
   }
 }
 
@@ -241,15 +243,23 @@ body {
   transition: 0.75s;
 }
 .article__category-layout {
-  padding: 5.5px 21.5px;
-  padding: 0.34375rem 1.34375rem;
   margin-left: 32px;
   margin-left: 2rem;
 }
 @media screen and (min-width: 768px) {
   .article__category-layout {
     margin-left: 3rem;
-    width: 100%;
+    width: 6.1875rem;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
