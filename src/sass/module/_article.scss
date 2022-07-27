@@ -13,6 +13,7 @@
     display: flex;
     margin-right: rem(119);
     margin-left: rem(119);
+    margin-bottom: rem(150);
   }
 }
 
@@ -57,14 +58,14 @@
 }
 
 .article__category-layout {
+  width: rem(99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: rem(32);
+  padding: rem(6) 0;
   @include mq(md) {
     margin-left: rem(48);
-    width: rem(99);
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 

@@ -55,6 +55,7 @@
 
 .works__wrap {
   @include mq(md) {
+    width: rem(557);
   }
 }
 
