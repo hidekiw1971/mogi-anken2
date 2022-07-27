@@ -9,6 +9,7 @@
   color: #ffffff;
   text-align: center;
   @include mq(md) {
+    text-align: left;
   }
 }
 
@@ -27,6 +28,7 @@
 .contents-box__text-layout {
   margin-bottom: rem(40);
   @include mq(md) {
+    text-align: left;
   }
 }
 
@@ -39,6 +41,11 @@
 
 .contents-box {
   background: #333;
+  @include mq(md) {
+  }
+}
+
+.contents-box__inner {
   @include mq(md) {
   }
 }
