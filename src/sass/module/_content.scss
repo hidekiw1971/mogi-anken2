@@ -10,6 +10,8 @@
   letter-spacing: rem(2);
   position: relative;
   @include mq(md) {
+    font-size: rem(30);
+    line-height: 1.1666;
   }
 }
 
@@ -28,6 +30,10 @@
   left: 50%;
   transform: translateX(-50%);
   @include mq(md) {
+    font-size: rem(110);
+    line-height: 1.4363;
+    top: rem(-52);
+    transform: translateX(-128%);
   }
 }
 
@@ -48,6 +54,8 @@
   padding-top: calc(89.36% / 2);
   position: relative;
   @include mq(md) {
+    width: calc(100% / 4);
+    padding-top: calc(89.36% / 4);
   }
 }
 
@@ -69,5 +77,6 @@
 .content__layout {
   margin-bottom: rem(71);
   @include mq(md) {
+    margin-bottom: rem(150);
   }
 }

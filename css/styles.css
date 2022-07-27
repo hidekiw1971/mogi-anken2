@@ -195,6 +195,7 @@ body {
     display: flex;
     margin-right: 7.4375rem;
     margin-left: 7.4375rem;
+    margin-bottom: 9.375rem;
   }
 }
 
@@ -243,23 +244,25 @@ body {
   transition: 0.75s;
 }
 .article__category-layout {
+  width: 99px;
+  width: 6.1875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 32px;
   margin-left: 2rem;
+  padding: 6px 0;
+  padding: 0.375rem 0;
 }
 @media screen and (min-width: 768px) {
   .article__category-layout {
     margin-left: 3rem;
-    width: 6.1875rem;
-    max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
@@ -685,6 +688,13 @@ body {
   letter-spacing: 0.125rem;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .content__title {
+    font-size: 1.875rem;
+    line-height: 1.1666;
+  }
+}
+
 .content__title::before {
   content: "Content";
   display: block;
@@ -704,6 +714,16 @@ body {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+@media screen and (min-width: 768px) {
+  .content__title::before {
+    font-size: 6.875rem;
+    line-height: 1.4363;
+    top: -3.25rem;
+    -webkit-transform: translateX(-128%);
+            transform: translateX(-128%);
+  }
+}
+
 .content__title-layout {
   margin-bottom: 48px;
   margin-bottom: 3rem;
@@ -716,6 +736,13 @@ body {
   padding-top: 44.68%;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .content__item-col2 > .content__img-wrapper {
+    width: 25%;
+    padding-top: 22.34%;
+  }
+}
+
 .content__img-wrapper img,
 .content__img-wrapper h3 {
   position: absolute;
@@ -736,6 +763,12 @@ body {
   margin-bottom: 71px;
   margin-bottom: 4.4375rem;
 }
+@media screen and (min-width: 768px) {
+  .content__layout {
+    margin-bottom: 9.375rem;
+  }
+}
+
 .contents-box__title {
   font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
@@ -1217,6 +1250,12 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 768px) {
+  .works__wrap {
+    width: 34.8125rem;
+  }
+}
+
 .swiper-pagination2 {
   text-align: center;
 }
