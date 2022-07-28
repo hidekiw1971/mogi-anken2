@@ -20,6 +20,7 @@
 - 2022/7/28 08:36 works pc 調整続
 - 2022/7/28 21:58 works 完了
 - 2022/7/29 06:40 overview pc 調整続
+- 2022/7/29 07:59 overview sp pc 調整完了
 
 ## portfolio
 
