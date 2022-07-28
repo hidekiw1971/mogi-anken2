@@ -10,6 +10,9 @@
   letter-spacing: rem(2);
   position: relative;
   @include mq(md) {
+    font-size: rem(30);
+    letter-spacing: rem(0.5);
+    line-height: 0.533;
   }
 }
 
@@ -28,6 +31,12 @@
   left: 50%;
   transform: translateX(-50%);
   @include mq(md) {
+    font-size: rem(110);
+    letter-spacing: rem(2);
+    line-height: 1.436;
+    top: rem(-53);
+    left: 50%;
+    transform: translateX(55%);
   }
 }
 
@@ -77,7 +86,7 @@
 
 .works__contents-box-layout {
   @include mq(md) {
-    width: rem(550);
+    width: rem(510);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +104,9 @@
   overflow: hidden;
   position: relative;
   @include mq(md) {
+    font-size: rem(16);
+    letter-spacing: rem(2);
+    line-height: 3.375;
     margin: 0;
   }
 }
@@ -109,6 +121,7 @@
   border: 1px solid #fff;
   padding: rem(10) 0;
   @include mq(md) {
+    padding: 0;
   }
 }
 
@@ -147,12 +160,18 @@
 
 .works-contents-box__title-layout {
   @include mq(md) {
+    font-size: rem(25);
+    letter-spacing: rem(0.5);
+    line-height: 0.64;
     margin-bottom: rem(48);
   }
 }
 
 .works-contents-box__text-layout {
   @include mq(md) {
+    font-size: rem(16);
+    letter-spacing: rem(0.5);
+    line-height: 2.1875;
     margin-bottom: rem(48);
   }
 }
