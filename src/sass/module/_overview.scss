@@ -42,3 +42,24 @@
   @include mq(md) {
   }
 }
+
+.overview__wrap {
+  @include mq(md) {
+    width: rem(557);
+  }
+}
+
+.overview__wrapper {
+  @include mq(md) {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: rem(81) 0;
+    background: linear-gradient(#333);
+  }
+}
+
+.overview__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

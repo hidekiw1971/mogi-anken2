@@ -81,6 +81,7 @@
 .works__layout {
   margin-bottom: rem(72);
   @include mq(md) {
+    margin-bottom: rem(150);
   }
 }
 
