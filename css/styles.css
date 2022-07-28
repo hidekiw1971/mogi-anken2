@@ -814,9 +814,21 @@ body {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
+@media screen and (min-width: 768px) {
+  .contents-box__layout {
+    width: 31.875rem;
+  }
+}
+
 .contents-box {
   background: #333;
 }
+@media screen and (min-width: 768px) {
+  .contents-box {
+    background: transparent;
+  }
+}
+
 .footer__layout {
   margin-bottom: 48px;
   margin-bottom: 3rem;
@@ -1198,6 +1210,39 @@ body {
   margin-bottom: 48px;
   margin-bottom: 3rem;
 }
+@media screen and (min-width: 768px) {
+  .overview__wrap {
+    width: 34.8125rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .overview__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding: 5.0625rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333));
+    background: linear-gradient(#333);
+  }
+}
+
+.overview__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .sp-navi__item a {
   display: inherit;
   width: inherit;
@@ -1320,6 +1365,12 @@ body {
   margin-bottom: 72px;
   margin-bottom: 4.5rem;
 }
+@media screen and (min-width: 768px) {
+  .works__layout {
+    margin-bottom: 9.375rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .works__contents-box-layout {
     width: 31.875rem;

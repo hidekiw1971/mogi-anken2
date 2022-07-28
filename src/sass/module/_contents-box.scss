@@ -36,12 +36,14 @@
   padding: 0 rem(20);
   padding-bottom: rem(16);
   @include mq(md) {
+    width: rem(510);
   }
 }
 
 .contents-box {
   background: #333;
   @include mq(md) {
+    background: transparent;
   }
 }
 
