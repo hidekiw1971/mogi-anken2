@@ -9,7 +9,11 @@
   color: #ffffff;
   text-align: center;
   @include mq(md) {
+    font-size: rem(25);
+    letter-spacing: rem(0.5);
+    line-height: 0.64;
     text-align: left;
+    margin-bottom: rem(48);
   }
 }
 
@@ -22,6 +26,10 @@
   line-height: 1.4375;
   color: #ffffff;
   @include mq(md) {
+    font-size: rem(16);
+    letter-spacing: rem(0.5);
+    line-height: 2.1875;
+    margin-bottom: rem(51);
   }
 }
 
