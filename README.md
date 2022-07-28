@@ -18,6 +18,7 @@
 - 2022/7/27 22:12 article pc,sp 完成
 - 2022/7/27 23:23 works pc 調整
 - 2022/7/28 08:36 works pc 調整続
+- 2022/7/28 21:58 works 完了
 
 ## portfolio
 

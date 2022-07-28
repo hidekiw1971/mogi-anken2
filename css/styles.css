@@ -1223,6 +1223,9 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 1.25rem;
     padding: 3.125rem 0;
     background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(30%, transparent), color-stop(30%, #333), to(#333));
@@ -1243,6 +1246,14 @@ body {
   letter-spacing: 0.125rem;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .works__title {
+    font-size: 1.875rem;
+    letter-spacing: 0.03125rem;
+    line-height: 0.533;
+  }
+}
+
 .works__title::before {
   content: "Works";
   display: block;
@@ -1262,6 +1273,18 @@ body {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+@media screen and (min-width: 768px) {
+  .works__title::before {
+    font-size: 6.875rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.436;
+    top: -3.3125rem;
+    left: 50%;
+    -webkit-transform: translateX(55%);
+            transform: translateX(55%);
+  }
+}
+
 .works__title-layout {
   margin-bottom: 48px;
   margin-bottom: 3rem;
@@ -1299,7 +1322,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .works__contents-box-layout {
-    width: 34.375rem;
+    width: 31.875rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1325,6 +1348,9 @@ body {
 }
 @media screen and (min-width: 768px) {
   .works-btn__layout {
+    font-size: 1rem;
+    letter-spacing: 0.125rem;
+    line-height: 3.375;
     margin: 0;
   }
 }
@@ -1340,6 +1366,12 @@ body {
   padding: 10px 0;
   padding: 0.625rem 0;
 }
+@media screen and (min-width: 768px) {
+  .works-btn__layout span {
+    padding: 0;
+  }
+}
+
 .works-btn__layout span:hover {
   position: relative;
   color: #333;
@@ -1370,12 +1402,18 @@ body {
 }
 @media screen and (min-width: 768px) {
   .works-contents-box__title-layout {
+    font-size: 1.5625rem;
+    letter-spacing: 0.03125rem;
+    line-height: 0.64;
     margin-bottom: 3rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .works-contents-box__text-layout {
+    font-size: 1rem;
+    letter-spacing: 0.03125rem;
+    line-height: 2.1875;
     margin-bottom: 3rem;
   }
 }
