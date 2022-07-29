@@ -9,7 +9,10 @@
   padding: 0 rem(20);
   padding-top: rem(67);
   padding-bottom: rem(64);
+  margin-bottom: rem(48);
   @include mq(md) {
+    padding: rem(148) rem(20);
+    margin-bottom: rem(32);
   }
 }
 
@@ -25,6 +28,9 @@
   position: relative;
   @include mq(md) {
   }
+  font-size: rem(30);
+  letter-spacing: rem(2);
+  line-height: 1.166;
 }
 
 .contact__title::before {
@@ -42,17 +48,29 @@
   left: 50%;
   transform: translateX(-50%);
   @include mq(md) {
+    font-size: rem(110);
+    letter-spacing: rem(2);
+    line-height: 1.436;
+    top: rem(-82);
+    transform: translate(-133%);
   }
 }
 
 .contact__title-layout {
   margin-bottom: rem(20);
   @include mq(md) {
+    margin-bottom: rem(24);
   }
 }
 
-.contact__layout {
-  margin-bottom: rem(48);
+.contact__text-layout {
   @include mq(md) {
+    margin-bottom: rem(61);
+  }
+}
+
+.contact__text-layout p {
+  @include mq(md) {
+    text-align: center;
   }
 }

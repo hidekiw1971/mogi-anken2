@@ -15,6 +15,9 @@
   letter-spacing: rem(2);
   position: relative;
   @include mq(md) {
+    font-size: rem(30);
+    letter-spacing: rem(0.5);
+    line-height: 0.533;
   }
 }
 
@@ -33,12 +36,18 @@
   left: 50%;
   transform: translateX(-50%);
   @include mq(md) {
+    font-size: rem(110);
+    letter-spacing: rem(2);
+    line-height: 1.436;
+    top: -380%;
+    transform: translateX(133%);
   }
 }
 
 .blog__title-layout {
   margin-bottom: rem(72);
   @include mq(md) {
+    margin-bottom: rem(49);
   }
 }
 
@@ -46,6 +55,8 @@
   padding: 0 rem(20);
   margin-bottom: rem(120);
   @include mq(md) {
+    padding-top: rem(77);
+    margin-bottom: rem(150);
   }
 }
 
@@ -53,10 +64,14 @@
   margin-bottom: rem(0);
   @include mq(md) {
   }
+  margin-right: rem(0);
 }
 
 .blog__col3-layout {
   margin-bottom: rem(24);
   @include mq(md) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem(48);
   }
 }

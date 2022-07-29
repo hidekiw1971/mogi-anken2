@@ -47,6 +47,7 @@
 .overview__layout {
   margin-bottom: rem(48);
   @include mq(md) {
+    margin-bottom: rem(150);
   }
 }
 
