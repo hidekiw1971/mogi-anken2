@@ -85,9 +85,15 @@
   margin-bottom: rem(28);
   display: block;
   @include mq(md) {
+    display: flex;
     align-items: center;
     margin: 0;
     margin-left: rem(61);
+  }
+}
+
+.article__text-inner {
+  @include mq(md) {
   }
 }
 
