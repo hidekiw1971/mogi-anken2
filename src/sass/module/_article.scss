@@ -88,6 +88,16 @@
     align-items: center;
     margin: 0;
     margin-left: rem(61);
+    // position: relative;
+  }
+}
+
+.article__text-layout:hover {
+  @include mq(md) {
+    // text-decoration: underline;
+    // text-decoration-color: #fff;
+    // text-underline-offset: 0.7em;
+    // transition: $slow;
   }
 }
 
