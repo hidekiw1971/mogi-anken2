@@ -98,10 +98,6 @@ ol {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
 /* Make images easier to work with */
 img {
   max-width: 100%;
@@ -272,17 +268,36 @@ body {
 .article__text-layout {
   margin-bottom: 28px;
   margin-bottom: 1.75rem;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .article__text-layout {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin: 0;
     margin-left: 3.8125rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .article__text-layout p {
+    display: inline;
+    background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
+    background-image: linear-gradient(90deg, #fff, #fff);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 0 1px;
+    -webkit-transition: background-size 0.75s;
+    transition: background-size 0.75s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .article__text-layout p:hover {
+    background-size: 100% 1px;
+    -webkit-transition: background-size 0.75s;
+    transition: background-size 0.75s;
   }
 }
 
@@ -1355,6 +1370,14 @@ body {
   .logo {
     width: 5.875rem;
   }
+}
+
+.markerUnder {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(97%, transparent), color-stop(0%, #f2cf39));
+  background: linear-gradient(transparent 97%, #f2cf39 0%);
+  display: inline;
+  padding-bottom: 2px;
 }
 
 .overview__title {

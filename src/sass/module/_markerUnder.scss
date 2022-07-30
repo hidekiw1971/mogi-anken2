@@ -1,0 +1,7 @@
+@use "global" as *;
+.markerUnder {
+  text-decoration: none;
+  background: linear-gradient(transparent 97%, #f2cf39 0%);
+  display: inline;
+  padding-bottom: 2px;
+}
