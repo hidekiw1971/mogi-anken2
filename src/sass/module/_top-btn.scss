@@ -1,0 +1,39 @@
+@use "global" as *;
+.top-btn {
+  width: rem(45);
+  height: rem(45);
+  background: #ffffff;
+  position: relative;
+  margin-bottom: rem(32);
+  margin-right: rem(32);
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  bottom: 0;
+  @include mq(md) {
+  }
+}
+
+.top-btn::before {
+  content: "";
+  display: block;
+  width: rem(24);
+  height: rem(2);
+  background: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -50%) rotate(45deg);
+}
+
+.top-btn::after {
+  content: "";
+  display: block;
+  width: rem(24);
+  height: rem(2);
+  background: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-87%, -50%) rotate(-45deg);
+}

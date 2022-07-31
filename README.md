@@ -25,6 +25,7 @@
 - 2022/7/30 09:34 underline 対応（改行対応）
 - 2022/7/30 15:15 underline 対応（改行対応）続
 - 2022/7/31 08:12 js 設置対応
+- 2022/8/1 08:23 js scrollTop(fadeIn/Out)設置済
 
 ## portfolio
 
