@@ -22,7 +22,8 @@ jQuery(function ($) {
   });
 
   // ボタンをクリックしたらスクロールして上に戻る
-  topBtn.click(function () {
+  // topBtn.click(function () {
+  $(".js-top-btn").click(function () {
     $("body,html").animate(
       {
         scrollTop: 0,

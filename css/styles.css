@@ -1522,6 +1522,7 @@ body {
 }
 
 .top-btn {
+  display: none;
   width: 45px;
   width: 2.8125rem;
   height: 45px;
