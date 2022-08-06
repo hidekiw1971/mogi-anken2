@@ -820,7 +820,7 @@ body {
   .content__title::before {
     font-size: 6.875rem;
     line-height: 1.4363;
-    top: -3.25rem;
+    top: -2.1875rem;
     -webkit-transform: translateX(-128%);
             transform: translateX(-128%);
   }
@@ -837,6 +837,7 @@ body {
   width: 50%;
   padding-top: 44.68%;
   position: relative;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .content__item-col2 > .content__img-wrapper {
