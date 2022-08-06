@@ -28,6 +28,7 @@
 - 2022/8/1 08:23 js scrollTop(fadeIn/Out)設置済
 - 2022/8/3 06:52 js scrollTop(fadeIn/Out)調整済
 - 2022/8/3 07:13 content hover 時対応
+- 2022/8/6 16:25 content hover 時対応中
 
 ## portfolio
 
