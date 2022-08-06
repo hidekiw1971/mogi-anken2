@@ -8,6 +8,16 @@ jQuery(function ($) {
   $(window).scroll(function () {
     var test = $(this).scrollTop();
     console.log(test);
+    // header -> 1100
+  });
+
+  // header(index.html)
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1100) {
+      $(".header__inner").css("background", "rgba(17, 17, 17, 1)");
+    } else {
+      $(".header__inner").css("background", "rgba(17, 17, 17, 0.5)");
+    }
   });
 
   // ボタンの表示設定
