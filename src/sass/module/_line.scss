@@ -1,0 +1,38 @@
+@use "global" as *;
+.line {
+  position: relative;
+  @include mq(md) {
+  }
+}
+
+.line::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 13%;
+  left: 0;
+  transform: skewY(60deg);
+  background: rgba(249, 248, 113, 1);
+  @include mq(md) {
+    top: 18%;
+    transform: skewY(43deg);
+  }
+}
+
+.line::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 65%;
+  transform: skewY(-72deg);
+  background: rgba(249, 248, 113, 1);
+  @include mq(md) {
+    bottom: 50%;
+    transform: skewY(-45deg);
+  }
+}
