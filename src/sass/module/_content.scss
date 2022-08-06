@@ -103,11 +103,13 @@
     width: 100%;
     padding-top: 100%;
     background: rgba(255, 255, 255, 0);
+    transition: $slow;
   }
 }
 
 .content__img-wrapper:hover:after {
   @include mq(md) {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.6);
+    transition: $slow;
   }
 }
