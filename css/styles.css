@@ -893,12 +893,16 @@ body {
     width: 100%;
     padding-top: 100%;
     background: rgba(255, 255, 255, 0);
+    -webkit-transition: 0.75s;
+    transition: 0.75s;
   }
 }
 
 @media screen and (min-width: 768px) {
   .content__img-wrapper:hover:after {
-    background: rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .6);
+    -webkit-transition: 0.75s;
+    transition: 0.75s;
   }
 }
 
