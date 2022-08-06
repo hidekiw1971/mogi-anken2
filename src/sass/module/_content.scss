@@ -81,3 +81,26 @@
     margin-bottom: rem(150);
   }
 }
+
+.content__img-wrapper::after {
+  @include mq(md) {
+    content: "";
+    display: block;
+    color: #fff;
+    position: absolute;
+    // z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 100%;
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+.content__img-wrapper:hover:after {
+  @include mq(md) {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

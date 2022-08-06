@@ -872,6 +872,28 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .content__img-wrapper::after {
+    content: "";
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 100%;
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content__img-wrapper:hover:after {
+    background: rgba(255, 255, 255, .2);
+  }
+}
+
 .contents-box__title {
   font-family: "Noto Sans JP", sans-serif;
   font-style: normal;

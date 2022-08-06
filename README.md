@@ -29,6 +29,8 @@
 - 2022/8/3 06:52 js scrollTop(fadeIn/Out)調整済
 - 2022/8/3 07:13 content hover 時対応
 - 2022/8/6 16:25 content hover 時対応中
+- 2022/8/6 16:38 content hover 時対応完了
+- 2022/8/6 16:41 header js 設定開始
 
 ## portfolio
 
