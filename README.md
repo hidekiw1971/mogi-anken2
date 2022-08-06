@@ -32,6 +32,7 @@
 - 2022/8/6 16:38 content hover 時対応完了
 - 2022/8/6 16:41 header js 設定開始
 - 2022/8/6 17:01 header js 設定完了
+- 2022/8/6 18:03 line 作成
 
 ## portfolio
 
