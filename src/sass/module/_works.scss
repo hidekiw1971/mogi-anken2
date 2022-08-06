@@ -80,7 +80,10 @@
 
 .works__layout {
   margin-bottom: rem(72);
+  position: relative;
+  z-index: 5;
   @include mq(md) {
+    padding-top: rem(63);
     margin-bottom: rem(150);
   }
 }

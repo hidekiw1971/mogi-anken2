@@ -9,6 +9,8 @@
   margin-right: rem(20);
   margin-left: rem(20);
   margin-bottom: rem(101);
+  position: relative;
+  z-index: 5;
   @include mq(md) {
     display: flex;
     margin-right: rem(119);
