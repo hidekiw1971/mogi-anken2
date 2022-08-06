@@ -2,6 +2,7 @@
 .card {
   display: block;
   background-color: #fff;
+  transition: $slow;
   @include mq(md) {
   }
 }
@@ -12,6 +13,7 @@
     margin: 0;
     margin-right: rem(25);
     width: rem(350);
+    transition: $slow;
   }
 }
 
@@ -42,5 +44,29 @@
   transform: translate(-13%, -13%);
   color: #333;
   @include mq(md) {
+  }
+}
+
+// hover対応
+.card__layout:hover {
+  @include mq(md) {
+    background: #333;
+    transition: $slow;
+  }
+}
+
+.card__layout:hover .card__title,
+.card__layout:hover .card__text,
+.card__layout:hover .card__category-date time {
+  @include mq(md) {
+    color: #fff;
+    transition: $slow;
+  }
+}
+
+.card__layout:hover .card__img-wrapper img {
+  @include mq(md) {
+    transform: scale(1.1);
+    transition: $slow;
   }
 }

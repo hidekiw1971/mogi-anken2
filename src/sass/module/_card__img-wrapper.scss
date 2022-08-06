@@ -2,15 +2,18 @@
 .card__img-wrapper {
   padding-top: 66.567%;
   position: relative;
+  overflow: hidden;
   @include mq(md) {
   }
 }
 
 .card__img-wrapper img {
   position: absolute;
-  top: 50%;
+  // top: 50%;
+  top: 0;
   left: 0;
-  transform: translateY(-50%);
+  // transform: translateY(-50%);
+  transition: $slow;
   @include mq(md) {
   }
 }
