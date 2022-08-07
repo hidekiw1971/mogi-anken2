@@ -1,0 +1,6 @@
+@use "global" as *;
+.header-mv__blog-layout {
+  margin-bottom: rem(16);
+  @include mq(md) {
+  }
+}

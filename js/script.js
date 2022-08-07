@@ -20,6 +20,15 @@ jQuery(function ($) {
     }
   });
 
+  // header(blog.html)
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 395) {
+      $(".header__inner").css("background", "rgba(17, 17, 17, 1)");
+    } else {
+      $(".header__inner").css("background", "rgba(17, 17, 17, 0.5)");
+    }
+  });
+
   // ボタンの表示設定
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1050) {

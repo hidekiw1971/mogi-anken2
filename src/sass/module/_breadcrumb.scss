@@ -1,0 +1,38 @@
+@use "global" as *;
+.breadcrumb {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(16);
+  letter-spacing: rem(1);
+  line-height: 1.1875;
+  color: #ffffff;
+  display: flex;
+  margin: 0 rem(20);
+  margin-bottom: rem(85);
+  @include mq(md) {
+  }
+}
+
+.breadcrumb li {
+  margin-left: rem(5);
+  @include mq(md) {
+  }
+}
+
+.breadcrumb li:first-child {
+  margin-left: 0;
+}
+
+.breadcrumb li::after {
+  content: ">";
+  display: inline-block;
+  margin-left: rem(5);
+  @include mq(md) {
+  }
+}
+
+.breadcrumb li:last-child::after {
+  content: "";
+  display: inline-block;
+}

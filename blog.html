@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>watabe-ya</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="icon" href="images/favicon.ico" />
+  <!-- css -->
+  <!-- google web font css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- JavaScript -->
+  <!-- swiper js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <header class="header header-layout js-header-blog">
+    <div class="header__inner">
+      <h1 class="logo">
+        <a href="index.html" class="logo__link">
+          <img src="./images/logo.svg" alt="Codeups">
+        </a>
+      </h1>
+      <nav class="header__pc-navi pc-navi pc-navi__layout">
+        <ul class="pc-navi__items">
+          <li class="pc-navi__item pc-navi__item-layout"><a href="./index.html">トップ</a></li>
+          <li class="pc-navi__item pc-navi__item-layout"><a href="#">お知らせ</a></li>
+          <li class="pc-navi__item pc-navi__item-layout"><a href="#">事業内容</a></li>
+          <li class="pc-navi__item pc-navi__item-layout"><a href="#">制作実績</a></li>
+          <li class="pc-navi__item pc-navi__item-layout"><a href="#">企業概要</a></li>
+          <li class="pc-navi__item pc-navi__item-layout"><a href="./blog.html">ブログ</a></li>
+          <li class="pc-navi__item pc-navi__item-layout pc-navi__item-query"><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <!-- /.pc-navi -->
+      <button class="header__drawer js-drawer-menu">
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <!-- /.header -->
+
+  <nav class="header__sp-navi sp-navi">
+    <ul class="sp-navi__items">
+      <li class="sp-navi__item"><a href="./index.html">トップ</a></li>
+      <li class="sp-navi__item"><a href="#">お知らせ</a></li>
+      <li class="sp-navi__item"><a href="#">事業内容</a></li>
+      <li class="sp-navi__item"><a href="#">制作実績</a></li>
+      <li class="sp-navi__item"><a href="#">企業概要</a></li>
+      <li class="sp-navi__item"><a href="./blog.html">ブログ</a></li>
+      <li class="sp-navi__item"><a href="#">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <!-- /.sp-navi -->
+
+  <div class="header-mv header-mv__blog-layout">
+    <div class="header-mv__wrap wrap">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-img slide-img_blog">
+              <img src="./images/blog_mv.png" alt="img1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-mv__shadow"></div>
+      <div class="header-mv__text-wrap header-mv__text-wrap-layout">
+        <h2 class="header-mv__title header-mv__title-layout">制作実績</h2>
+        <!-- <h3 class="header-mv__sub-title header-mv__sub-title-layout">サブタイトルが入ります</h3> -->
+      </div>
+    </div>
+  </div>
+  <!-- /.header-mv -->
+
+  <ul class="breadcrumb">
+    <li><a href="#">トップ</a></li>
+    <li><a href="#">制作実績</a></li>
+  </ul>
+
+  <div class="blog blog__layout">
+    <h2 class="blog__title blog__title-layout">ブログ</h2>
+    <div class="blog__col3 blog__col3-layout">
+      <a href="#" class="card card__layout">
+        <b class="card__badge"><span class="card__badge-text">New</span></b>
+        <figure class="card__img-wrapper">
+          <img src="./images/blog1@2x.png" alt="">
+        </figure>
+        <div class="card__body">
+          <h3 class="card__title">タイトルが入ります。タイトルが入ります。</h3>
+          <p class="card__text">説明文が入ります。説明文が入ります。説明文が入ります。</p>
+        </div>
+        <div class="card__category-date">
+          <p class="card__category">カテゴリ</p>
+          <time datetime="2021-07-20">2021.07.20</time>
+        </div>
+      </a>
+      <a href="#" class="card card__layout">
+        <!-- <b class="card__badge"><span class="card__badge-text">New</span></b> -->
+        <figure class="card__img-wrapper">
+          <img src="./images/blog2@2x.png" alt="">
+        </figure>
+        <div class="card__body">
+          <h3 class="card__title">タイトルが入ります。タイトルが入ります。</h3>
+          <p class="card__text">説明文が入ります。説明文が入ります。説明文が入ります。</p>
+        </div>
+        <div class="card__category-date">
+          <p class="card__category">カテゴリ</p>
+          <time datetime="2021-07-20">2021.07.20</time>
+        </div>
+      </a>
+      <a href="#" class="card card__layout">
+        <!-- <b class="card__badge"><span class="card__badge-text">New</span></b> -->
+        <figure class="card__img-wrapper">
+          <img src="./images/blog3@2x.png" alt="">
+        </figure>
+        <div class="card__body">
+          <h3 class="card__title">タイトルが入ります。タイトルが入ります。</h3>
+          <p class="card__text">説明文が入ります。説明文が入ります。説明文が入ります。</p>
+        </div>
+        <div class="card__category-date">
+          <p class="card__category">カテゴリ</p>
+          <time datetime="2021-07-20">2021.07.20</time>
+        </div>
+      </a>
+    </div>
+    <!-- /.blog__col3 -->
+    <a href="#" class="btn btn__layout"><span>詳しく見る</span></a>
+  </div>
+  <!-- /.blog -->
+
+  <div class="contact contact__layout">
+    <h2 class="contact__title contact__title-layout">お問い合わせ</h2>
+    <div class="contact__text-layout contents-box__text contents-box__text-layout">
+      <p>
+        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+      </p>
+    </div>
+    <a href="#" class="btn btn__layout"><span>お問い合わせへ</span></a>
+
+  </div>
+
+  <footer class="footer footer__layout">
+    <ul class="footer__navi footer__navi-layout">
+      <li class="footer__navi-list"><a href="#"><img src="./images/logo.svg" alt="codeups"></a></li>
+      <li class="footer__navi-list footer__navi-list-space"><a href="./index.html">トップ</a></li>
+      <li class="footer__navi-list"><a href="#">お知らせ</a></li>
+      <li class="footer__navi-list"><a href="#">事業内容</a></li>
+      <li class="footer__navi-list"><a href="#">企業概要</a></li>
+      <li class="footer__navi-list"><a href="./blog.html">ブログ</a></li>
+      <li class="footer__navi-list"><a href="#">お問い合わせ</a></li>
+    </ul>
+    <div class="footer__copyright">&copy;2021 CodeUps Inc.</div>
+  </footer>
+  <!-- /.footer -->
+
+  <div class="top-btn js-top-btn"></div>
+
+  </div>
+  <!-- /.line -->
+
+</body>
+
+</html>
