@@ -1,0 +1,19 @@
+@use "global" as *;
+.category {
+  margin: 0 rem(20);
+  margin-bottom: rem(17);
+  @include mq(md) {
+  }
+}
+
+.category a {
+  font-family: $base-font-family;
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(16);
+  letter-spacing: rem(2);
+  line-height: 1.4375;
+  color: #ffffff;
+  @include mq(md) {
+  }
+}
