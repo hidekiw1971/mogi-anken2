@@ -1,24 +1,28 @@
 @use "global" as *;
 .category__blog-layout {
   display: inline-block;
+  margin: 0 rem(20);
+  margin-bottom: rem(37);
   @include mq(md) {
   }
 }
 
 .category__blog-layout li {
   display: inline-block;
-  margin-right: rem(20);
+  margin-right: rem(15);
+  // margin-left: rem(20);
   @include mq(md) {
   }
 }
 
 .category__blog-layout li:last-child {
   margin-right: rem(0);
+  // margin-left: rem(0);
 }
 
 .category__blog-layout ul {
   display: flex;
   align-items: center;
-  font-size: rem(0);
+  font-size: 0;
   line-height: 0;
 }
