@@ -1,10 +1,6 @@
 @use "global" as *;
 .category__blog-all {
-  display: inline-block;
   width: rem(48);
-  // text-align: center;
-  // background: rgba(255, 255, 255, 1);
-  color: #333;
   position: relative;
   @include mq(md) {
   }
@@ -14,17 +10,70 @@
   content: "";
   display: block;
   padding-top: 62.5%;
-  background: rgba(255, 255, 255, 1);
+  // background: #f00;
+  @include mq(md) {
+  }
 }
 
-.category__blog-all span {
+.category__blog-all-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  white-space: nowrap;
+  @include mq(md) {
+  }
+}
+
+.category__blog-size0 {
+  background: #fff;
   color: #333;
+  @include mq(md) {
+  }
+}
+
+.category__blog-size1 {
+  width: rem(90);
+  @include mq(md) {
+  }
+}
+
+.category__blog-size1::before {
+  content: "";
+  display: block;
+  padding-top: 33.33%;
+  @include mq(md) {
+  }
+}
+
+.category__blog-size2 {
+  width: rem(144);
+  @include mq(md) {
+  }
+}
+
+.category__blog-size2::before {
+  content: "";
+  display: block;
+  padding-top: 20.83%;
+  @include mq(md) {
+  }
+}
+
+.category__blog-size3 {
+  width: rem(36);
+  @include mq(md) {
+  }
+}
+
+.category__blog-size3::before {
+  content: "";
+  display: block;
+  padding-top: 83.33%;
+  @include mq(md) {
+  }
 }

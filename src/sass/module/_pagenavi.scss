@@ -1,0 +1,45 @@
+@use "global" as *;
+// wp-pagenavi
+.wp-pagenavi {
+  clear: both;
+  text-align: center;
+}
+
+.wp-pagenavi__layout {
+  margin-bottom: rem(120);
+}
+
+.wp-pagenavi a,
+.wp-pagenavi span {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: rem(0) rem(6);
+  margin: 0 rem(8);
+  white-space: nowrap;
+  border-radius: 0;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wp-pagenavi a:first-child {
+  margin-left: 0;
+}
+
+.wp-pagenavi a:last-child {
+  margin-right: 0;
+}
+
+.wp-pagenavi a:hover {
+  color: #fff;
+  background: #ff0;
+  border-color: #999;
+}
+
+.wp-pagenavi span.current {
+  color: #333;
+  background: #fff;
+  border-color: #fff;
+  font-weight: bold;
+}

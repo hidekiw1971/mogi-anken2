@@ -1,7 +1,7 @@
 @use "global" as *;
 .category {
-  margin: 0 rem(20);
-  margin-bottom: rem(17);
+  // margin: 0 rem(20);
+  // margin-bottom: rem(17);
   @include mq(md) {
   }
 }
