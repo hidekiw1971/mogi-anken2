@@ -65,7 +65,7 @@
 
 // blog.html
 .slide-img_blog {
-  padding-top: 113.3%;
+  padding-top: 28.9%;
   position: relative;
   @include mq(md) {
   }
@@ -75,7 +75,7 @@
   content: "";
   display: block;
   width: 100%;
-  padding-top: 113.3%;
+  padding-top: 28.9%;
   background: rgba(17, 17, 17, 0.2);
   position: absolute;
   top: 0;
@@ -89,7 +89,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-45%, -50%) scale(1.39);
+  transform: translate(-50%, -50%) scale(1);
   @include mq(md) {
   }
 }

@@ -12,7 +12,9 @@
   @include mq(md) {
     margin: 0;
     margin-right: rem(25);
-    width: rem(350);
+    margin-bottom: rem(48);
+    // width: rem(350);
+    width: calc(100% / 3.5);
     transition: $slow;
   }
 }
