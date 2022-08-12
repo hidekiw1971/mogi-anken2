@@ -6,4 +6,7 @@
   right: 0;
   height: rem(50);
   z-index: 15;
+  background: rgba(17, 17, 17, 0.5);
+  @include mq(md) {
+  }
 }

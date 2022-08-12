@@ -1,5 +1,7 @@
 @use "global" as *;
 .breadcrumb {
+  max-width: rem(1139);
+  width: 100%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: $normal;
@@ -8,8 +10,9 @@
   line-height: 1.1875;
   color: #ffffff;
   display: flex;
-  margin: 0 rem(20);
+  margin: 0 auto;
   margin-bottom: rem(85);
+  padding: 0 rem(20);
   @include mq(md) {
   }
 }
