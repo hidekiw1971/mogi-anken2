@@ -1,8 +1,12 @@
 @use "global" as *;
 .category__blog-layout {
-  display: inline-block;
-  margin: 0 rem(20);
+  // display: inline-block;
+  display: block;
+  max-width: rem(1139);
+  // width: 100%;
+  margin: 0 auto;
   margin-bottom: rem(37);
+  padding: 0 rem(20);
   @include mq(md) {
   }
 }
