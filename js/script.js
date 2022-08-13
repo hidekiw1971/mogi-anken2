@@ -14,18 +14,30 @@ jQuery(function ($) {
   // header(index.html)
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1100) {
-      $(".header__inner").css("background", "rgba(17, 17, 17, 1)");
+      $(".header.header-layout.js-header").css(
+        "background",
+        "rgba(17, 17, 17, 1)"
+      );
     } else {
-      $(".header__inner").css("background", "rgba(17, 17, 17, 0.5)");
+      $(".header.header-layout.js-header").css(
+        "background",
+        "rgba(17, 17, 17, 0.5)"
+      );
     }
   });
 
   // header(blog.html)
   $(window).scroll(function () {
     if ($(this).scrollTop() > 395) {
-      $(".header__inner").css("background", "rgba(17, 17, 17, 1)");
+      $(".header.header-layout.js-header-blog").css(
+        "background",
+        "rgba(17, 17, 17, 1)"
+      );
     } else {
-      $(".header__inner").css("background", "rgba(17, 17, 17, 0.5)");
+      $(".header.header-layout.js-header-blog").css(
+        "background",
+        "rgba(17, 17, 17, 0.5)"
+      );
     }
   });
 

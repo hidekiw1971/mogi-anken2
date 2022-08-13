@@ -1353,7 +1353,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .header__inner {
-    max-width: 71.1875rem;
+    max-width: 82.5rem;
     width: 100%;
     margin: 0 auto;
   }
